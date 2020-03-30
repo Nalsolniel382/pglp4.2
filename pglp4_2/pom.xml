@@ -10,7 +10,6 @@
   <name>pglp4_2</name>
   <url>http://maven.apache.org</url>
 
-  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -62,6 +61,4 @@
 	  </plugin>
     </plugins>
   </reporting>
-  
-  
 </project>
