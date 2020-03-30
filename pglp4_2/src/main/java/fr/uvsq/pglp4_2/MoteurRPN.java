@@ -20,7 +20,7 @@ public class MoteurRPN {
 	private Stack<Double> pile;
 	private Undo u;
 	
-	private MoteurRPN(final Stack<Double> pileOperandes, final Undo upara) {
+	public MoteurRPN(final Stack<Double> pileOperandes, final Undo upara) {
 		pile = pileOperandes;
 		u = upara;
 		mapO = new HashMap<String, Operations>();
@@ -72,7 +72,10 @@ public class MoteurRPN {
 	public void afficheOperandes() 
 	{
 		int i;
+
+		System.out.println("voici le resultat");
 		for( i=0;i<this.pile.size();i++){
+
 			
 			System.out.println(this.pile.get(i));
 		}
